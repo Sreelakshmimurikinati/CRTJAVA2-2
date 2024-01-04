@@ -1,0 +1,30 @@
+import java.util.*;
+class  Array1
+{
+	public static void main(String[] args) 
+	{
+		Scanner s=new Scanner(System.in);
+		int a[],i,n;
+		System.out.println("Enter size of the array");
+		n=s.nextInt();
+		a=n.new int[n];
+		System.out.println("Enter n element");
+		for(i=0;i<n;i++)
+		{
+			a[i]=s.nextInt();
+		}
+		System.out.println("the element before sorting");
+		for(i=0;i<n;i++)
+		{
+			System.out.print(a[i]+" ");
+		}
+		System.out.println();
+		Array.sort(a);
+		System.out.println("the element after sorting");
+		for(i=0;i<n;i++)
+		{
+			System.out.print(a[i]+" ");
+		}
+	}
+}
+

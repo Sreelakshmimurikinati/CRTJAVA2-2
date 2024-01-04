@@ -1,0 +1,30 @@
+import java.util.*;
+class  Array1
+{
+	public static void main(String[] args) 
+	{
+		Scanner s=new Scanner(System.in);
+		int a[],i,n,sno;
+		System.out.println("Enter size of the array");
+		n=s.nextInt();
+		a=new int[n];
+		System.out.println("Enter n element");
+		for(i=0;i<n;i++)
+		{
+			a[i]=s.nextInt();
+		}
+		System.out.println("Enter search element");
+		sno=s.nextInt();
+		int r=Array.binary Search(a,sno);
+		if(r<o)
+			{
+			System.out.print("search element is not found");
+			}
+			else
+		{
+				System.out.println("Element is found\nposition="+(r+1);
+		}
+	}
+}
+
+

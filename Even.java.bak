@@ -1,0 +1,22 @@
+import java.util.*;
+class Even
+{
+	public static void main(String[] args)
+	{
+		Scanner s=new Scanner(System.in);
+		int a;
+		System.out.println("enter a no");
+		a=s.nexInt();
+		if(a%2==0)
+		{
+				System.out.println("even no");
+			}
+			else
+			{
+				System.out.println("odd no");
+			}
+	}
+}
+			
+
+

@@ -1,0 +1,12 @@
+clc;
+clear all;
+close all;
+n=input('enter value of n=');
+x=input('enter input sequence');
+a=1:1:n;
+y=fft(x,n);
+disp('fft of input sequence');
+disp(y);
+z=ifft(y);
+disp('ifft of input sequence');
+disp(z);

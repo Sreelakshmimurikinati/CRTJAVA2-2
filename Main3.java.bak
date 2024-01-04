@@ -1,0 +1,15 @@
+public class Main
+{
+    int a;
+    float b;
+    boolean c;
+    String d;
+	public static void main(String[] args)
+	{
+	    Main s1=new Main();
+	    System.out.println(s1.a);
+	    System.out.println(s1.b);
+	    System.out.println(s1.c);
+	    System.out.println(s1.d);
+	}
+}
