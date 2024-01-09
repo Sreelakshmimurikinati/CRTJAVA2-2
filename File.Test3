@@ -1,0 +1,19 @@
+import java.io.*;
+import java.util.*;
+class Test
+{
+	public static void main(String[] args) 
+	{
+		int a,b,c;
+		Properties p=new Properties();
+		FileInPutStream f1=new FileInPutStream("data.txt");
+		p.load(f1);
+		a=Integer.ParseInt(P.getproperty("num1");
+		b=Integer.ParseInt(P.getproperty("num2");
+		c=a+b;
+		System.out.print(c);
+	}
+}
+
+	
+	
